@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_stats_stats",
+  "info": {
+    "displayName": "stat",
+    "icon": "seed"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

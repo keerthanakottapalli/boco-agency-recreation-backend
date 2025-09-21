@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_highlight_tags_highlight_tags",
+  "info": {
+    "displayName": "highlight_tag",
+    "icon": "priceTag"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

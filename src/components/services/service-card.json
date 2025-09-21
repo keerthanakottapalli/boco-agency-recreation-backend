@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_services_service_cards",
+  "info": {
+    "displayName": "ServiceCard",
+    "icon": "handHeart"
+  },
+  "options": {},
+  "attributes": {
+    "service_title": {
+      "type": "string"
+    },
+    "service_description": {
+      "type": "json"
+    },
+    "service_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

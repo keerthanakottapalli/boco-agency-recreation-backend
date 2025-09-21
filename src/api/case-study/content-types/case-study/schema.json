@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies",
+  "info": {
+    "singularName": "case-study",
+    "pluralName": "case-studies",
+    "displayName": "CaseStudy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Fashion",
+        "Health & wellness"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "main_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "stat": {
+      "type": "component",
+      "component": "stats.stat",
+      "repeatable": true
+    },
+    "highlight_tag": {
+      "type": "component",
+      "component": "highlight-tags.highlight-tag",
+      "repeatable": true
+    },
+    "case_study_link": {
+      "type": "string"
+    }
+  }
+}
